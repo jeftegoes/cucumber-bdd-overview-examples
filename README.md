@@ -1,3 +1,7 @@
+# Cucumber and Bdd - Overview and examples <!-- omit in toc -->
+
+## Contents <!-- omit in toc -->
+
 - [1. What is BDD?](#1-what-is-bdd)
 - [2. What is Cucumber?](#2-what-is-cucumber)
   - [2.1. Difference between Cucumber \& Selenium](#21-difference-between-cucumber--selenium)
@@ -5,8 +9,6 @@
   - [3.1. Scenarios](#31-scenarios)
     - [3.1.1. Pre-Conditions](#311-pre-conditions)
 - [4. Feature and Feature File](#4-feature-and-feature-file)
-- [5. Dependencies](#5-dependencies)
-- [6. IntelliJ Plugins](#6-intellij-plugins)
 
 # 1. What is BDD?
 
@@ -19,7 +21,7 @@
 
 # 2. What is Cucumber?
 
-- Cucumber is a tool/Framework that supports Behaviour-Driven Development(BDD).
+- Cucumber is a tool/Framework that supports Behaviour-Driven Development (BDD).
 
 ## 2.1. Difference between Cucumber & Selenium
 
@@ -93,35 +95,3 @@
       Then Credit Card confirmation page is not displayed
       But error message is displayed
   ```
-
-# 5. Dependencies
-
-```xml
-    <!-- Provides Gherkin step definitions (@Given, @When, @Then). -->
-    <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-java</artifactId>
-        <version>8.0.4</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- Integrates Cucumber with JUnit Platform. -->
-    <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-junit-platform-engine</artifactId>
-        <version>8.0.4</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- Provides the API and engine for defining and executing test suites. -->
-    <dependency>
-        <groupId>org.junit.platform</groupId>
-        <artifactId>junit-platform-suite</artifactId>
-        <version>6.1.3</version>
-        <scope>test</scope>
-    </dependency>
-```
-
-# 6. IntelliJ Plugins
-
-- [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java)
